@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+
+	    int x,y,z,total,count;
+	    cin>>x>>y>>z;
+	    total = x*5+y*10;
+	    count=total/z;
+	    cout<<count<<endl;
+	     
+	}
+	return 0;
+}
