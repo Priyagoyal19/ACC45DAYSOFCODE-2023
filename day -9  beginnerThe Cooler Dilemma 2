@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int x,y, count = 0;
+        cin>>x>>y;
+        count = y/x;
+        if((count*x)<y){
+            cout<<count<<endl;
+        }
+        else{
+            cout<<count-1<<endl;
+        }
+    }
+	return 0;
+}
