@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t; cin>>t;
+	while(t--){
+	    int r1,r2,w1,w2,c1,c2;
+	    cin>>r1>>w1>>c1;
+	    cin>>r2>>w2>>c2;
+	    bool a=r1>r2;
+	    bool b=w1>w2;
+	    bool c=c1>c2;
+	    if(a+b+c>1){
+	        cout<<"A"<<endl;
+	    }
+	    else{
+	        cout<<"B"<<endl;
+	    }
+	}
+	return 0;
+}
