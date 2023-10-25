@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int i,t;
+	cin>>t;
+	for (i=0;i<t;i++)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    if (x/y <=20)
+	    cout<<x/y<<endl;
+	    else cout<<20<<endl;
+	}
+	return 0;
+}
