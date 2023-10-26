@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin >> t;
+	while(t--) {
+	    int l,r,m; cin >> l >> r >> m;
+	    int ans = (m/r) + ((m+l-1)/l);
+	    cout << ans << "\n";
+	}
+	return 0;
+}
