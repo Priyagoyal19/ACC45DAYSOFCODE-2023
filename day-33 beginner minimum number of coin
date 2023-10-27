@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int testCase;
+	cin >> testCase;
+	for(int i=1; i<=testCase; i++){
+	    int x;
+	    cin >> x;
+	    if(x%5==0){
+	        int coin = x/10;
+	        if(x%10==5){
+	            coin += 1;
+	        }
+	        cout << coin <<endl;
+	    }else{
+	        cout << -1 <<endl;
+	    }
+	}
+	return 0;
+}
