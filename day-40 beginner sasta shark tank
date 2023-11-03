@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int a,b,c,d;
+	    cin>>a>>b;
+	    c=(a*100)/10;
+	    d=(b*100)/20;
+	    if(c==d)
+	    {
+	        cout<<"any"<<endl;
+	    }
+	    else if(c>d)
+	   {
+	       cout<<"first"<<endl;
+	   }
+	   else
+	   {
+	       cout<<"second"<<endl;
+	   }
+	}
+	return 0;
+}
